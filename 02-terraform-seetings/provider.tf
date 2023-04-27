@@ -1,4 +1,4 @@
-provider "google"{}
+provider "google" {}
 
 provider "oci" {}
 

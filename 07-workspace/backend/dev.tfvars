@@ -1,2 +1,2 @@
-bucket="<terraform-backend-bucket>"
-prefix="terraform/state"
+bucket = "<terraform-backend-bucket>"
+prefix = "terraform/state"

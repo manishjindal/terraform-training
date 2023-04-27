@@ -1,8 +1,8 @@
 data "terraform_remote_state" "network" {
   backend = "gcs"
   config = {
-    bucket  = "<terrafomr-backend-bucket>"
-    prefix  = "terraform/network"
+    bucket = "<terrafomr-backend-bucket>"
+    prefix = "terraform/network"
   }
 }
 data "google_compute_image" "debian_image" {
